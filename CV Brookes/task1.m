@@ -2,4 +2,7 @@
 % loading image from the directory.
 Image = imread('TennisSet1/stennis.0.ppm');
 imshow(Image)
+
+
+
 processmyimage(imread('TennisSet1/stennis.0.ppm'));

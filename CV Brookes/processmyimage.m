@@ -21,6 +21,8 @@ function processmyimage(Image)
     figure(14);
     imhist(wiener)
     BW = MakeMask(Image);
+    figure(14);
+    imshow(BW)
     bw= bwareaopen(BW,300);
 
     figure(4)
